@@ -23,13 +23,13 @@
 //   }
 //   showNotification();
  
-function submit(){
+var submit = () => {
     let news = document.getElementById('getNews').value
     fetch(
         // `https://newsapi.org/v2/everything?q=bitcoin&apiKey=08c94fef7b7f4ea3b382b2113bcc9d85`
-        // s// `https://newsapi.org/v2/everything?q=${news}&ApiKey=08c94fef7b7f4ea3b382b2113bcc9d85`
+         `https://newsapi.org/v2/everything?q=${news}&ApiKey=08c94fef7b7f4ea3b382b2113bcc9d85`
 // a//
- `https://newsapi.org/v2/everything?q=${news}&apiKey=89a0dd4e948a49d49de178c9fe1c6850`
+//  `https://newsapi.org/v2/everything?q=${news}&apiKey=89a0dd4e948a49d49de178c9fe1c6850`
         )
 .then((res)=> res.json())       
 .then((res) =>{
