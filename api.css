@@ -1,0 +1,155 @@
+body{ 
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #f6f6f6;
+display: flex;
+
+}
+.cont{
+    flex: 1;
+    height: auto;
+     /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.header{
+    flex: 1;    
+    height: 23%;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 3px solid grey;
+    /* border-bottom: 1px solid black; */
+
+    /* display: flex;/ */
+    /* justify-content: center; */
+
+}
+.header-child{
+    position: relative;
+    left: 4%;
+    width: 92%;
+    height: 75%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+.logoHead{
+    width: 12%;
+    /* background-color: burlywood; */
+    height: 100%;
+}
+.logoHead1{
+    width: 33%;
+    /* background-color: burlywood; */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logoHead1 img{
+    height:182px;
+    width: 70%;
+    position:relative ;
+    bottom: 42px;
+}
+/* #main-logo{
+    width: 200px;
+    height: 200px;
+} */
+.logoHead2{
+    width: 12%;
+    /* background-color: burlywood; */
+    height: 100%;
+}
+.header-child2{
+    width: 100%;
+    height: 22%;
+    
+    /* background-color: black; */
+display: flex;
+justify-content: space-around;
+}
+.navbar{
+    width: 65%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+    /* border-bottom: 1px solid gray; */
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.searchbar{
+    width: 19% ;
+    height: 100%;
+    background-color: white;
+    /* border-radius: 5px; */
+    /* border-bottom: 1px solid gray; */
+
+
+    display: flex;
+}
+#getNews{
+    width: 85%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+#search_btn{
+    width: 12%;
+    background-color:transparent;
+    outline: none;
+    border: 0px;
+    
+    /* border-left:0px ; */
+}
+.navbar-child{
+    width: 12%;
+    height: 33px;
+    /* background-color: blue; */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar-child p{
+    font-size: larger;
+
+}
+#cont1{
+    width: 100%;
+    height:100%;
+    /* background-color: burlywood; */
+display: flex;
+justify-content: center;
+
+}
+.card-news{
+    width: 95%;
+    height:auto;
+    /* background-color: aqua; */
+    /* border: 1px solid black; */
+
+}
+.card{
+    border-radius: 5px;
+    margin: 15px;
+    background-size: cover;
+    /* border: none; */
+    outline: none;
+}
+.card-body{
+    border-radius: 5px;
+}
+.card img{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.card-group{
+    /* display: flex; */
+}
